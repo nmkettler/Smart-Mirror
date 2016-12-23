@@ -7,7 +7,7 @@ var special_dates = function() {
 		case 'November 25th':
 			$('.special-dates').text("Happy Thanksgiving!");
 		break;
-		case 'December 23rd':
+		case 'December 24th':
 			$('.special-dates').text("Merry Christmas Eve, ya thilthy animal");
 		break;
 		case 'December 25th':
