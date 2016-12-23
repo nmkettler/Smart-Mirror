@@ -1,0 +1,84 @@
+*{
+  background-color: #000;
+  margin: 0;
+}
+.container-fluid{
+}
+
+#weatherTemp h2 {
+  margin: 0 0 3px;
+  color: #fff;
+  font-size: 100px;
+  font-weight: 300;
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.15);
+  text-align: right;
+}
+
+#weatherTemp h2 i {
+  font-size: 70px;
+}
+
+.weatherSection p{
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.15);
+}
+
+.weatherSection{
+  float:right;
+  padding: 50px 0 300px 0;
+}
+
+.weatherSection div{
+  display:none;
+
+}
+
+/************* Date/Time **************/
+
+#date p:first-child{
+    font-size: 1.85em;
+    font-weight: 300;
+    text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.15);
+    color: #fff;
+}
+
+#time {
+    font-size: 3em;
+    padding: 0px;
+    font-weight: 300;
+    text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.15);
+    color: #fff;
+}
+
+.special-dates{
+    font-size: 3em;
+    font-weight: 300;
+    text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.15);
+    color: #fff;
+}
+
+/************Newsfeed************/
+
+.bottom{
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%; 
+}
+#greeting{
+    font-size: 1.3em;
+    font-weight: 300;
+    text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.15);
+    color: #fff;
+
+}
+
+#newsfeed p{
+  font-size: 1.1em;
+  padding-top: 50px;
+  font-weight: 300;
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.15);
+  color: #fff;
+}
